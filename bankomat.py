@@ -38,8 +38,6 @@ def bankomat():
             with open("check.txt", "a") as file:
                 file.write(f"Parol {pin} ga muvaffaqqiyatli o'zgartirildi.\n")
         elif amal == "5":
-            with open("check.txt", "a") as file:
-                file.write("Tizimdan chiqdingiz, Xayr!")
             return "Tizimdan chiqdingiz, Xayr!"
         else:
             print("Xato amal, 1-5 orasidan tanlang!")
