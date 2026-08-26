@@ -1,5 +1,5 @@
 from balans_korish import balans_korish
-from parol_tekshirish import parol_tekshirish
+from pin_tekshirish import pin_tekshirish
 from pin_ozgartirish import pin_ozgartirish
 from pin_qoyish import pin_qoyish
 from pul_qoshish import pul_qoshish
@@ -8,7 +8,7 @@ from pul_yechish import pul_yechish
 def bankomat():
     balans = 0
     pin = pin_qoyish()
-    if not parol_tekshirish(pin):
+    if not pin_tekshirish(pin):
         return "Tizimga kirish rad etildi."
     print("Bankamatga xush kelibsiz")
     with open("check.txt", "w"):

@@ -1,4 +1,4 @@
-def parol_tekshirish(pin):
+def pin_tekshirish(pin):
     imkon = 3
     while imkon > 0:
         user = input("Parolni kiriting: ")
