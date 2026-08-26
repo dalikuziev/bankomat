@@ -1,0 +1,19 @@
+# Maxfiy sozlamalar
+.env
+
+# Python kesh fayllari
+__pycache__/
+*.py[cod]
+
+# Ma'lumotlar bazasi va yuklangan fayllar
+db.sqlite3
+media/
+*.log
+
+# Dasturlash muhitlari (IDE)
+.idea/
+.vscode/
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
